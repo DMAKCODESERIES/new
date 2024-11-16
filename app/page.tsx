@@ -23,7 +23,7 @@ export default function Home() {
   }, [])
 
   return (
-    <main className="p-4 items-center bg-red">
+    <main className="p-4 items-center bg-green">
       {userData ? (
         <>
           <h1 className="text-2xl font-bold mb-4 bg-black">User Data</h1>
